@@ -1,5 +1,4 @@
 def get_mask_card_number(card_number: str) -> str:
-
     """Функция корая пинимает на вход номер карты и выдает маску
     в формате xxxx xx** **** xxxx, где x-это цифра номера"""
 
@@ -7,7 +6,6 @@ def get_mask_card_number(card_number: str) -> str:
 
 
 def get_mask_account(account_number: str) -> str:
-
     """Функция корая пинимает на вход номер счета и выдает маску
     в формате ** xxxx, где x-это цифра счета"""
 
