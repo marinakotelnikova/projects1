@@ -1,4 +1,7 @@
-def filter_by_state(lists_state: list, state: str = "EXECUTED") -> list[str]:
+from typing import Optional
+
+
+def filter_by_state(lists_state: list, state: Optional[str]= "EXECUTED") -> list[str]:
     """Функция возвращает список словарей по ключу state с указанным значением"""
 
     new_lists = []
