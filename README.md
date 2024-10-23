@@ -9,3 +9,5 @@
 ## В модулmь main.py методом import функции из модуля src/processing,py вывожу данные.
 
 ### Провела проверку через flake8, mypy.
+
+### Сделали проверку через Pytests модули masks.py, widget.py, processing.py.
